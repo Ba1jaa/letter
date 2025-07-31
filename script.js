@@ -41,13 +41,13 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("mouseover", () => {
-  const x = Math.random() * 600 - 300; // wider horizontal range
-  const y = Math.random() * 300 - 150; // taller vertical range
+  const x = Math.random() * 200 - 100;
+  const y = Math.random() * 100 - 50;
   noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
 
 noBtn.addEventListener("click", () => {
-  const x = Math.random() * 600 - 300;
-  const y = Math.random() * 300 - 150;
+  const x = Math.random() * 200 - 100;
+  const y = Math.random() * 100 - 50;
   noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
